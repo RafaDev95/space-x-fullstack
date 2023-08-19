@@ -12,7 +12,10 @@ const Navbar = () => {
 
         <p className="italic text-slate-200">
           Data Source:{' '}
-          <NextLink href="#" className="underline">
+          <NextLink
+            href="https://github.com/r-spacex/SpaceX-API"
+            className="underline"
+          >
             Space X
           </NextLink>
         </p>
